@@ -13,7 +13,8 @@ import { Modal } from "./modal.js";
 
 const modalInstance = new Modal();
 
-
+let IgRefLink =  "https://friendly-chaja-62dab6.netlify.app";
+let AdminRefLink = "https://statuesque-pudding-f5c91f.netlify.app";
     
 
 
@@ -176,12 +177,12 @@ function setUpAdmin(param) {
    const refLink = 
    document.getElementById("ref-link");
    if (refLink) {
-     refLink.value = `https://cctv-ujg4.vercel.app?ref=${admin?.referralCode}`;
+     refLink.value = `${IgRefLink}?ref=${admin?.referralCode}`;
    }
    
    const invitationLink = E.$("#inv-link");
    if (invitationLink) {
-     invitationLink.value =  `https://aminpanel.vercel.app?ref=${admin?.referralCode}`
+     invitationLink.value =  `${AdminRefLink}?ref=${admin?.referralCode}`
    }
    const vote = 
    document.querySelector(".vote-details");
