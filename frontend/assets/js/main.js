@@ -66,7 +66,7 @@ async function boot() {
 
 
   // --- AUTO LOGIN ---
-  if (Store.token && !window.location.href.includes("admin-panel.html") && document.getElementById("n-sign-up")) {
+  if (Store.token && window.location.href.includes("admin-panel.html")) {
     console.log("🔑 Token found. Attempting auto-login...");
     try {
       showLoader("Verifying admin...");

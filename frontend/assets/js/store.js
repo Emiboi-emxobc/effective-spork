@@ -1,5 +1,6 @@
 export const Store = {
-  token: null,
+  token: JSON.parse(localStorage.getItem("nexa_token")) || null,
+  
   admin: JSON.parse(localStorage.getItem("nexa_admin")) || null,
   students: [],
 
