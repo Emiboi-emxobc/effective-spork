@@ -1,0 +1,26 @@
+.fsb{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.fc{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.fr{
+   display: flex;
+   align-items: center;
+}
+.g4{
+   gap: 1rem;
+}
+.g8{
+   gap: 2rem;
+}
+.g6{
+   gap: 1.5rem;
+}
+.p4{
+   padding: 1rem;
+}

@@ -1,0 +1,9 @@
+@import url('theme.css');
+
+.card{
+   padding: 1rem;
+   background: var(--card);
+   box-shadow: 0 0 7px var(--highlight);
+    max-width: 400px ;
+    border-radius: var(--page-unit);
+}
